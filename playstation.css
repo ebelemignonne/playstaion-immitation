@@ -118,15 +118,26 @@
     z-index: 1;
 }
 .rouge:hover{
-    border: 4px solid rgb(84, 84, 116);
     background-color: blueviolet;
 }
+.jordan:hover{
+    
+    border: 4px solid rgb(84, 84, 116);
+    height: 50px; width: 190px;
+    background-color: black;
+    border-radius: 50px; 
+}
 .rouge{
-    height: 50px; width: 180px; border-radius: 50px; border: transparent; background-color: rgb(211, 57, 1); color: white; font-family: 'Narrow Bold', sans-serif;
+    height: 40px; width: 170px; border-radius: 
+    50px; border: transparent; 
+    background-color: rgb(211, 57, 1);
+    color: white;
+    font-family: 'Narrow Bold', sans-serif;
 }
 .rouge a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 .logo2{
     transform: translate(-15px, 0px);
