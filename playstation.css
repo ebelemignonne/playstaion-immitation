@@ -42,13 +42,13 @@
 }
 .mega_menu ul li .sub_menu{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     left: 0;
     padding: 25px 15px;
     display: flex;
-    justify-content: space-evenly;
     visibility: hidden;
-    background-color: white;
+    background-color: rgb(235, 235, 235);
+    transform: translate(-210px, 0px);
 }
 .mega_menu ul li a:hover{
     color: rgb(43, 43, 255);
@@ -80,6 +80,9 @@
 #connexion{
     width: 100px;
     height: 40px;
+    position: absolute;
+    top: -21%;
+    left: 50%;
     padding-bottom: 3px;
     border-radius: 50px;
     color: white;
@@ -92,7 +95,17 @@
 }
 #connexion:hover{
     border: 4px solid rgb(84, 84, 116);
-    background-color: blueviolet;
+    background-color: rgb(84, 84, 116);
+}
+.connexion1{
+    position: relative;
+    height: 50px;
+    width: 110px;
+    border-radius: 50px;
+    transform: translate(0px, 10px);
+}
+.connexion1:hover{
+    border: 4px solid rgb(84, 84, 116);
 }
 .opte{
     transform: translate(-300px, 4px);
@@ -122,7 +135,8 @@
 }
 .jordan{
     position: relative;
-    height: 50px; width: 180px;
+    height: 50px;
+    width: 180px;
     border-radius: 50px; 
 }
 .jordan:hover{
@@ -215,6 +229,7 @@ select{
     justify-content: space-around;
 }
 .boutonx{
+    transform: translate(1.1%, 2.5%);
     width: 130px; height: 40px; border-radius: 50px; border: transparent; background-color: rgb(43, 101, 248); color: white;
 }
 .boutonx a{
@@ -224,7 +239,17 @@ select{
 .boutonx:hover{
     background-color: rgb(131, 119, 103);
 }
+.boutonx1{
+    position: relative;
+    height: 50px;
+    width: 140px;
+    border-radius: 50px;
+}
+.boutonx1:hover{
+    border: 4px solid  rgb(131, 119, 103);
+}
 .boutony{
+    transform: translate(0.2%, 2%);
     width: 260px; height: 40px; border-radius: 50px; border: transparent;  background-color: rgb(43, 101, 248); color: white;
 }
 .boutony a{
@@ -234,6 +259,15 @@ select{
 .boutony:hover{
     background-color: rgb(131, 119, 103);
 }
+.boutony1{
+    height: 50px;
+    width: 270px;
+    border-radius: 50px;
+}
+.boutony1:hover{
+    border: 4px solid  rgb(131, 119, 103);
+}
+
 .video6{
     height: 200px;
     width: 100%;
@@ -369,13 +403,30 @@ font-family: 'Times New Roman', Times, serif;
 .blanc1{
     color: black;
     background-color: white;
-    border-radius:
-    50px; border: transparent;
+    border-radius:50px;
+    border: transparent;
     height: 40px;
-    width: 100px; 
+    width: 100px;
+    transform: translate(1.1%, 2%);
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 80%;
+}
+
 .blanc1:hover{
-    background-color: rgb(103, 99, 99);
+    background-color: rgb(131, 119, 103);
+}
+.blanc2{
+    height: 50px;
+    width: 110px;
+    border-radius: 50px;    
+}
+.blanc2:hover{
+    border: 4px solid rgb(131, 119, 103);
 }
 .d3{
     background-image: url("img/homme.webp");
@@ -512,13 +563,25 @@ font-family: 'Times New Roman', Times, serif;
 .tom{
     height: 40px;
     width: 130px;
-    color: white;
+    color: black;
     background-color: rgb(30, 89, 193);
-    border-radius: 20px;
+    border-radius: 50px;
     border: transparent;
+    transform: translate(1%, 2%);
 }
 .tom:hover{
     background-color: rgb(112, 108, 108);
+}
+.tom a {
+    color: white;
+}
+.tom1{
+    height: 50px;
+    width: 140px;
+    border-radius: 50px;
+}
+.tom1:hover{
+    border: 4px solid rgb(112, 108, 108);
 }
 /*fin de la huitieme partie*/
 /*debut de la neuvieme partie*/
@@ -546,10 +609,22 @@ font-family: 'Times New Roman', Times, serif;
     width: 230px;
     border: transparent;
     border-radius: 50px;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(196, 196, 196);
+    transform: translate(0.4%, 1.8%);
 }
 .jerry:hover{
-    background-color: rgb(107, 105, 102);
+    background-color: rgb(158, 158, 158);
+}
+.jerry a{
+    color: rgb(83, 83, 83);
+}
+.jerry1{
+    height: 50px;
+    width: 240px;
+    border-radius: 50px;
+}
+.jerry1:hover{
+    border: 4px solid rgb(158, 158, 158);
 }
 .boss{
     transform: translate(40px, 0px);
