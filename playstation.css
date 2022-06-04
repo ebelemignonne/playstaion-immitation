@@ -104,7 +104,7 @@
     height: 50px;
     width: 110px;
     border-radius: 50px;
-    transform: translate(0px, 10px);
+    transform: translate(-50px, 10px);
 }
 .connexion1:hover{
     border: 4px solid rgb(84, 84, 116);
